@@ -153,3 +153,23 @@ a.button {
 a.button:hover {
       background-color: #0056b3;
 }
+@media (max-width: 768px) {
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-img {
+    width: 160px;
+  }
+}

@@ -7,9 +7,9 @@ body {
   padding: 20px;
 }
 .logo{
-    display: block;
-    margin: 0 auto;
     height: 60px;
+    width: auto;
+    alighn-items: Center; 
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;

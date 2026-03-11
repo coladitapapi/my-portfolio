@@ -6,10 +6,11 @@ body {
   line-height: 1.6;
   padding: 20px;
 }
-.logo{
-    height: 60px;
-    width: auto;
-    alighn-items: Center; 
+.logo {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;

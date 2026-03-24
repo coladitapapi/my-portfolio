@@ -198,3 +198,15 @@ a.button:hover {
   }
 
 }
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-text {
+  max-width: 500px;
+}

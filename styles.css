@@ -25,31 +25,59 @@ h2 {
   padding-bottom: 5px;
 }
 
-nav {
-  background-color: #34482a;
-}
-
-nav ul {
-  list-style: none;
+.navbar {
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0;
+  margin: 20px 0;
 }
 
-nav li {
-  margin: 0 15px;
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background:#835937;
+  backdrop-filter: blur(10px);
 }
 
-nav a {
-  color: #c4996f;
+.navbar a {
+  position: relative;
   text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #c4996f;
+  transition: width 0.3s ease;
 }
 
+.navbar a:hover {
+  color: #c4996f;
+  transform: translateY(-2px);
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar a:active {
+  transform: scale(0.95);
+}
+
+.navbar a:hover {
+  text-shadow: 0 0 8px #e0be9b;
+}
 main {
   padding: 40px;
 }
